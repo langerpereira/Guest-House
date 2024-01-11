@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guest House</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-sm bg-transparent fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="./img/Screenshot_2024-01-12_004100-removebg-preview (1).png"
+            class="img"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" href="#who-we-are">Who we are</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="d-flex">
+      <!-- <video class="vid" controls autoplay >
+            <source src="./img/VID-20240112-WA0001.mp4" type="video/ogg">
+            <source src="./img/VID-20240112-WA0001.mp4" type="video/ogg">
+            Your browser does not support the video tag.
+        </video> -->
+
+      <img src="./img/IMG-20240112-WA0005.jpg" alt="" class="vid" />
+
+      <div
+        class="live-life-container text-white text-center d-flex align-items-center justify-content-center"
+      >
+        <h1 class="live-life">Stay once, carry memories forever</h1>
+      </div>
+      <div
+        class="scroll-down text-highlight-small scroll-to"
+        data-scroll-to="#who-we-are"
+        data-scroll-offset="-120"
+      >
+        <a href="#who-we-are" class="a">
+          <img
+            src="https://cookcollectivekitchen.com/wp-content/uploads/2019/07/arrow-down.svg"
+            class="arrow-down"
+          />
+          <span style="font-weight: bolder">Show me more!</span></a
+        >
+      </div>
+    </section>
+
+    <section
+      id="who-we-are"
+      class="block block-who-we-are block-section-bg block-waypoint"
+      data-waypoint="who-we-are"
+    >
+      <div class="block-container block-container-section-bg max-width-large">
+        <div class="block-left">
+          <div class="block-content">
+            <h1 class="who" data-aos="fade-up">
+              <span>Who we are</span>
+            </h1>
+            <p class="text-normal aos-init aos-animate hi" data-aos="fade-up">
+              Cook Collective is a 6500sq. feet shared kitchen serving your
+              small business commissary kitchen needs.<br />
+              <br />
+              Our goal is to provide space for a community of like minded
+              entrepreneurs, where we can problem-solve, support and grow
+              together.<br />
+              <br />
+              We strive to create a global collective of diverse food businesses
+              to supply the world one great meal at a time!
+            </p>
+          </div>
+        </div>
+        <div class="block-right">
+          <div class="block-section-bg-image">
+            <img
+              width="62"
+              height="80"
+              src="https://cookcollectivekitchen.com/wp-content/uploads/2019/07/2-2-923x1200.jpg"
+              class="ls-is-cached lazy-loaded"
+              alt=""
+              data-src="https://cookcollectivekitchen.com/wp-content/uploads/2019/07/2-2-923x1200.jpg"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- <div class="block-scroll-down">
+            <div class="scroll-down text-highlight-small scroll-to cursor-hover" data-scroll-to="#what-we-offer" data-scroll-offset="-120">
+                    <img src="https://cookcollectivekitchen.com/wp-content/uploads/2019/07/arrow-down.svg" class="arrow-down">
+                </div>
+        </div> -->
+    </section>
+  </body>
+</html>

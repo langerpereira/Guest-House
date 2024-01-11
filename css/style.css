@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&family=Old+Standard+TT&display=swap');
+
+body {
+    background-color: #fff3e9;
+
+}
+
+.navbar {
+    font-size: 14px;
+}
+
+.navbar-dark {
+    padding: 0;
+}
+
+.img {
+    height: 35px;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.nav-link {
+    padding: 0;
+    font-size: 10px;
+    font-family: sans-serif;
+    position: relative;
+    text-decoration: none;
+}
+
+.nav-link::after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 1px;
+    background-color: #ef0000;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.4s ease;
+}
+
+.nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.vid {
+    height: 100vh;
+    width: 50vw; /* Set width to half of the viewport width */
+    background-size: cover;
+}
+
+ .live-life{
+    font-family: 'Anton';
+    text-align: center;
+    padding-left: 50px;
+    letter-spacing: 4px;
+    color: #ff2f00;
+    text-transform: uppercase;
+    /* font-weight: bold; */
+    
+ }
+
+ .scroll-down {
+    position: absolute;
+    color: #ff2f00;
+    font-weight: bold;
+    bottom: 1rem;
+    width: 100%;
+    translate: -15% 0%;
+    text-align: right;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    outline: none;
+    display: block;
+    animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+.block-section-bg {
+    width: 100%;
+    background-color: #FFFAF5;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.block {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+section {
+    display: block;
+}
+
+.block-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block-left {
+    flex: 0 0 60%;
+}
+
+.block-right {
+    flex: 0 0 35%;
+}
+
+.block-content {
+    padding: 20px;
+}
+
+.block-section-bg-image img {
+    width: 100%;
+    height: auto;
+}
+
+.hi{
+    font-size: 10px;
+    padding-right: 100px;
+}
+
+.who{
+    font-weight: lighter;
+    text-decoration: underline #ff2f00;
+    text-underline-offset: 5px;
+}
+
+.a{
+    color: #ff2f00;
+    text-decoration: none;
+     background-color: none; 
+}
