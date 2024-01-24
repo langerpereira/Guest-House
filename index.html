@@ -56,18 +56,13 @@
     </nav>
 
     <section id="home" class="d-flex">
-      <!-- <video class="vid" controls autoplay >
-            <source src="./img/VID-20240112-WA0001.mp4" type="video/ogg">
-            <source src="./img/VID-20240112-WA0001.mp4" type="video/ogg">
-            Your browser does not support the video tag.
-        </video> -->
 
       <img src="./img/20240115_083613.jpg" alt="" class="vid" />
 
       <div
         class="live-life-container text-white text-center d-flex align-items-center justify-content-center"
       >
-        <h1 class="live-life">Stay once, carry memories forever</h1>
+        <h1 class="hidden" id="live-life">Stay once, carry memories forever</h1>
       </div>
       <div
         class="scroll-down text-highlight-small scroll-to"
@@ -95,11 +90,11 @@
         <div class="block-left">
           <div class="block-content">
             <h1 class="who" data-aos="fade-up">
-              <span>Who we are</span>
+              <span class="hidden">Who we are</span>
             </h1>
             <br />
             <p
-              class="text-normal para aos-init aos-animate hi"
+              class="text-normal para aos-init aos-animate hidden" id="hi"
               data-aos="fade-up"
             >
               Welcome to Lawrence's Guest House. Good Quality Rooms well
@@ -130,7 +125,7 @@
         </div>
         <div class="block-right">
           <div class="block-section-bg-image">
-            <video class="video" 
+            <video class="hidden" id="video"
               width="100%"
               height="auto"
               autoplay
@@ -151,17 +146,91 @@
           data-scroll-to="#what-we-offer"
           data-scroll-offset="-120"
         >
+        <a href="#features" class="a">
           <img
             src="https://cookcollectivekitchen.com/wp-content/uploads/2019/07/arrow-down.svg"
             class="arrow-down"
           />
+        </a>
         </div>
       </div>
     </section>
 
-    <section id="Pricing" data-waypoint="Pricing">
-      <section class="Merge" id="testimonials">
-        <h2 class="testimonial-title">What Our Customers Say</h2>
+    <section id="features" data-waypoint="features">
+      <div class="mg-features">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="mg-sec-title">
+                <h2 class="hidden" >Additional Features</h2>
+                <p class="hidden">
+                  Explore more amenities and services provided during your stay.
+                </p>
+              </div>
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="card mb-3 mg-feature">
+                    <img
+                      src="https://source.unsplash.com/400x300/?shower"
+                      class="card-img-top"
+                      alt="Image 1"
+                    />
+                    <div class="card-body">
+                      <h3 class="card-title">Hot Water</h3>
+                      <p>
+                        Hot Water is availabe in our guest house so that each and every guests can enjoy thie stay with us.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col-sm-4">
+                  <div class="card mb-3 mg-feature">
+                    <img
+                      src="https://source.unsplash.com/400x300/?spa"
+                      class="card-img-top"
+                      alt="Image 2"
+                    />
+                    <div class="card-body">
+                      <h3 class="card-title">Spa & Wellness</h3>
+                      <p>
+                        Relax and rejuvenate with our spa and wellness services.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col-sm-4">
+                  <div class="card mb-3 mg-feature">
+                    <img
+                      src="https://source.unsplash.com/400x300/?restaurant"
+                      class="card-img-top"
+                      alt="Image 3"
+                    />
+                    <div class="card-body">
+                      <h3 class="card-title">Fine Dining</h3>
+                      <p>
+                        Indulge in exquisite culinary experiences at our fine dining
+                        restaurant.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+    
+                <!-- Add more features as needed -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+</section>
+
+
+
+      <section class="Merge" id="Pricing" data-waypoint="Pricing">
+        <h2 class="hidden" id="testimonial-title">What Our Customers Say</h2>
         <div class="testimonial-container container">
             <div class="testimonial-box">
                 <div class="customer-detail">
@@ -223,21 +292,6 @@
             </div>
         </div>
     </section>
-    <section class="Merge" id="contact">
-        <div class="contact-container container">
-            <div class="contact-img">
-                <img src="https://i.postimg.cc/1XvYM67V/restraunt2.jpg" alt="" />
-            </div>
-
-            <div class="form-container">
-                <h2>Contact Us</h2>
-                <input type="text" placeholder="Your Name" />
-                <input type="email" placeholder="E-Mail" />
-                <textarea cols="30" rows="6" placeholder="Type Your Message"></textarea>
-                <a href="#" class="btn btn-primary">Submit</a>
-            </div>
-        </div>
-    </section>
-    </section>
+    
   </body>
 </html>

@@ -53,7 +53,7 @@ body {
     background-size: cover;
 }
 
- .live-life{
+ #live-life{
     font-family: 'Anton';
     text-align: center;
     padding-left: 50px;
@@ -138,21 +138,9 @@ section {
     height: auto;
 }
 
-.hi{
+#hi{
     font-size: 9px;
     padding-right: 100px;
-    animation: fade linear both;
-    animation-timeline: view();
-    animation-range: entry 60% cover 50%;
-}
-
-@keyframes fade {
-    from{
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    } 
 }
 
 .who{
@@ -168,20 +156,13 @@ section {
      background-color: none; 
 }
 
-/* .img {
-    border: 1px solid #000000;
-  } */
-
 .block-scroll-down{
     translate: -200px 0px;
 }
 
-.video{
+#video{
     padding-top: 20px;
     border-radius: 9px;
-    animation: fade linear both;
-    animation-timeline: view();
-    animation-range: entry 60% cover 50%;
 }
 
 #testimonials {
@@ -189,7 +170,7 @@ section {
     font-size: 5px;
   }
   
-  .testimonial-title {
+  #testimonial-title {
     text-align: center;
     font-size: 30px;
     font-weight: 400;
@@ -219,11 +200,58 @@ section {
   
   .customer-photo img {
     display: block;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
     margin: auto;
   }
   
+  .hidden{
+    opacity: 0;
+    transition: all 2s;
+  }
+
+  .show{
+    opacity: 1;
+  }
+
+  #features{
+    background-color: #fff3e9;
+  }
+
+  .mg-sec-title {
+    text-align: center;
+  }
+
+  .mg-feature {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+
+  .mg-feature img {
+    width: 50%;
+    height: auto;
+    align-self: center;
+    border-radius: 8px;
+  }
+
+  .mg-feature h3 {
+    font-size: 15px;
+  }
+
+  .mg-feature h2 {
+    font-size: 20px;
+  }
+
+  .mg-feature p {
+    font-size: 10px;
+    color: #555;
+  }
+
+  #pricing{
+    background-color: #FFFAF5;
+  }
