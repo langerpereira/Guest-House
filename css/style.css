@@ -77,7 +77,6 @@ body {
     -ms-user-select: none;
     user-select: none;
     font: inherit;
-    vertical-align: baseline;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -165,6 +164,11 @@ section {
     border-radius: 9px;
 }
 
+/* testomony */
+#Pricing {
+  margin-top: 20px; 
+}
+
 #testimonials {
     padding-top: 25px;
     font-size: 5px;
@@ -172,9 +176,10 @@ section {
   
   #testimonial-title {
     text-align: center;
-    font-size: 30px;
+    padding-top: 7%;
+    font-size: 25px;
     font-weight: 400;
-    color: #555;
+    color: #ff2f00;
   }
   
   .testimonial-container {
@@ -207,6 +212,9 @@ section {
     border-radius: 50%;
     margin: auto;
   }
+  .testimonial-text{
+    font-size: 9px;
+  }
   
   .hidden{
     opacity: 0;
@@ -217,8 +225,10 @@ section {
     opacity: 1;
   }
 
+  /* features */
   #features{
     background-color: #fff3e9;
+    padding-bottom: 8%;
   }
 
   .mg-sec-title {
@@ -233,18 +243,24 @@ section {
   }
 
   .mg-feature img {
-    width: 50%;
+    width: 80%;
     height: auto;
     align-self: center;
     border-radius: 8px;
   }
 
   .mg-feature h3 {
-    font-size: 15px;
+    font-size: 13px;
   }
 
-  .mg-feature h2 {
-    font-size: 20px;
+  #features_hedding {
+    margin-top: 8%;
+    font-size: 25px;
+    color: #ff2f00;
+  }
+
+  #sub{
+    font-size: 13px;
   }
 
   .mg-feature p {
@@ -252,6 +268,64 @@ section {
     color: #555;
   }
 
-  #pricing{
+  .Merge{
     background-color: #FFFAF5;
   }
+
+  .mg-feature .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#card{
+  width: 60%;
+}
+.card-body{
+  padding: 0%;
+}
+
+.card-body p {
+  font-size: 9px;
+}
+
+.foot{
+  font-size: 9px;
+  background-color: #fff3e9;
+  color: #ff2f00;
+}
+
+/* slider */
+
+#image-slider{
+  background-color:#FFFAF5;
+}
+
+.slider-image {
+  height: 350px;
+  width: 100%;
+}
+
+#text {
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+#slider{
+  padding: 2%;
+  color: #ff2f00;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* map */
+.map{
+  margin-top: 10%;
+  margin: 4%;
+}
